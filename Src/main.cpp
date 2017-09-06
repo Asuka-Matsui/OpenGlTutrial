@@ -140,7 +140,6 @@ struct UpdatePlayer {
 		entity.Position(pos);
 
 		if (gamepad.buttons & GamePad::A) {
-
 			shotInterval -= delta;
 			if (shotInterval <= 0) {
 				glm::vec3 pos = entity.Position();
